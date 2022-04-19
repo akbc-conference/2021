@@ -44,5 +44,1366 @@
       "~Dong_Yu2"
     ],
     "doi": "doi:10.24432/C5Z30M"
+  },
+  {
+    "title": "Event Coreference Data (Almost) for Free: Mining Hyperlinks from Online News",
+    "authorids": [
+      "~Michael_Bugert1",
+      "~Iryna_Gurevych1"
+    ],
+    "authors": [
+      "Michael Bugert",
+      "Iryna Gurevych"
+    ],
+    "keywords": [
+      "event",
+      "coreference",
+      "resolution",
+      "cross",
+      "document"
+    ],
+    "TL;DR": "hyperlinks are an effective data source for cross-document event coreference resolution: abundant, cheap, mostly language-independent, but noisy",
+    "abstract": "Cross-document event coreference resolution (CDCR) is the task of identifying which event mentions refer to the same events throughout a collection of documents.\nAnnotating CDCR data is an arduous and expensive process, explaining why existing corpora are small and lack domain coverage.\nTo overcome this bottleneck, we automatically extract event coreference data from hyperlinks in online news: When referring to a significant real-world event, writers often add a hyperlink to another article covering this event. We demonstrate that collecting hyperlinks which point to the same article(s) produces extensive and high-quality CDCR data and create a corpus of 2M documents and 2.7M silver-standard event mentions called HyperCoref.\nWe evaluate a state-of-the-art system on three CDCR corpora and find that models trained on small subsets of HyperCoref are highly competitive, with performance similar to models trained on gold-standard data.\nWith our work, we free CDCR research from depending on costly human-annotated training data and open up possibilities for research beyond English CDCR, as our data extraction approach can be easily adapted to other languages.",
+    "pdf": "/pdf/8c079e9584ec3ea116fad57b1192e073eaab30be.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Machine Learning"
+    ],
+    "archival_status": "Non-Archival",
+    "supplementary_material": "/attachment/7cfeedc3c74437bf8c4871795084d2bf490f4f21.zip",
+    "paperhash": "bugert|event_coreference_data_almost_for_free_mining_hyperlinks_from_online_news",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nbugert2021event,\ntitle={Event Coreference Data (Almost) for Free: Mining Hyperlinks from Online News},\nauthor={Michael Bugert and Iryna Gurevych},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=485AXJD1fQ5}\n}",
+    "forum_id": "485AXJD1fQ5",
+    "UID": "17",
+    "author_profiles": [
+      "~Michael_Bugert1",
+      "~Iryna_Gurevych1"
+    ],
+    "doi": ""
+  },
+  {
+    "title": "The Vagueness of Vagueness in Noun Phrases",
+    "authorids": [
+      "~Pierre-Henri_Paris1",
+      "syrine.elaoud@telecom-paris.fr",
+      "~Fabian_M._Suchanek1"
+    ],
+    "authors": [
+      "Pierre-Henri Paris",
+      "Syrine El Aoud",
+      "Fabian M. Suchanek"
+    ],
+    "keywords": [],
+    "abstract": "Natural language text has a great potential to feed knowledge bases. However, natural language is not always precise -- and sometimes intentionally so. In this position paper, we study vagueness in noun phrases. We manually analyze the frequency of vague noun phrases in a Wikipedia corpus, and find that 1/4 of noun phrases exhibit some form of vagueness. We report on their nature and propose a categorization. We then conduct a literature review and present different definitions of vagueness, and different existing methods to deal with the detection and modeling of vagueness. We find that, despite its frequency, vagueness has not yet be addressed in its entirety.",
+    "pdf": "/pdf/692ce054ea3482ebe30a90de6e3ef56a5f5ae7b4.pdf",
+    "subject_areas": [],
+    "paperhash": "paris|the_vagueness_of_vagueness_in_noun_phrases",
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/f1a73e5844cacb8aafae1cbe814ad1f686d07eb5.zip",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nparis2021the,\ntitle={The Vagueness of Vagueness in Noun Phrases},\nauthor={Pierre-Henri Paris and Syrine El Aoud and Fabian M. Suchanek},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=7pUJHzNNhvy}\n}",
+    "forum_id": "7pUJHzNNhvy",
+    "UID": "10",
+    "author_profiles": [
+      "~Pierre-Henri_Paris1",
+      "",
+      "~Fabian_M._Suchanek1"
+    ],
+    "doi": "doi:10.24432/C5T884"
+  },
+  {
+    "title": "Why a Naive Way to Combine Symbolic and Latent Knowledge Base Completion Works Surprisingly Well",
+    "authorids": [
+      "~Christian_Meilicke1",
+      "~Patrick_Betz1",
+      "~Heiner_Stuckenschmidt2"
+    ],
+    "authors": [
+      "Christian Meilicke",
+      "Patrick Betz",
+      "Heiner Stuckenschmidt"
+    ],
+    "keywords": [
+      "Rule Learning",
+      "Knowledge Graph Embeddings",
+      "Knowledge Graph Completion"
+    ],
+    "abstract": "We compare a rule-based approach for knowledge graph completion against current state-of-the-art, which is based on embbedings. Instead of focusing on aggregated metrics, we look at several examples that illustrate essential differences between symbolic and latent approaches. Based on our insights, we construct a simple method to combine the outcome of rule-based and latent approaches in a post-processing step. Our method improves the results constantly for each model and dataset used in our experiments.",
+    "pdf": "/pdf/e50a80ea008e72ae8f173d3fe1059b52b116cc5d.pdf",
+    "subject_areas": [
+      "Machine Learning",
+      "Relational AI"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/2fe570cb25043018c04b420be27191060823437a.zip",
+    "paperhash": "meilicke|why_a_naive_way_to_combine_symbolic_and_latent_knowledge_base_completion_works_surprisingly_well",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nmeilicke2021why,\ntitle={Why a Naive Way to Combine Symbolic and Latent Knowledge Base Completion Works Surprisingly Well},\nauthor={Christian Meilicke and Patrick Betz and Heiner Stuckenschmidt},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=JQHqeGx6qFw}\n}",
+    "forum_id": "JQHqeGx6qFw",
+    "UID": "4",
+    "author_profiles": [
+      "~Christian_Meilicke1",
+      "~Patrick_Betz1",
+      "~Heiner_Stuckenschmidt2"
+    ],
+    "doi": "doi:10.24432/C5PK5V"
+  },
+  {
+    "title": "Enterprise Alexandria: Online High-Precision Enterprise Knowledge Base Construction with Typed Entities",
+    "authorids": [
+      "~John_Winn1",
+      "~Matteo_Venanzi1",
+      "~Tom_Minka1",
+      "ivkorost@microsoft.com",
+      "john.guiver@outlook.com",
+      "~Elena_Pochernina1",
+      "pmyshkov@microsoft.com",
+      "alspen@microsoft.com",
+      "dwilkins@microsoft.com",
+      "sianl@microsoft.com",
+      "rbanks@microsoft.com",
+      "~Sam_Webster1",
+      "~Yordan_Zaykov1"
+    ],
+    "authors": [
+      "John Winn",
+      "Matteo Venanzi",
+      "Tom Minka",
+      "Ivan Korostelev",
+      "John Guiver",
+      "Elena Pochernina",
+      "Pavel Mishkov",
+      "Alex Spengler",
+      "Denise Wilkins",
+      "Sian Lindley",
+      "Richard Banks",
+      "Sam Webster",
+      "Yordan Zaykov"
+    ],
+    "keywords": [
+      "Enterprise Knowledge",
+      "Automated Knowledge Base Construction",
+      "Generative modelling",
+      "Probabilistic programming"
+    ],
+    "TL;DR": "An automated system for incrementally extracting multi-typed entities from private enterprise documents including emails, calendar events and documents with users in the loop",
+    "abstract": "We present Enterprise Alexandria, one of the core AI technologies behind Microsoft Viva Topics. Enterprise Alexandria is a new system for automatically constructing a knowledge base with high-precision and typed entities from private enterprise data such as emails, documents and intranet pages. Built as an extension of Alexandria [Winn et al.,2019], the key novelty of Enterprise Alexandria is the ability in processing both the textual information and the structured metadata available in each document in an online learning fashion, making use of any manual curations that have happened in the interim. This task is performed entirely eyes-off to respect the privacy of the user and the restricted access their documents. The knowledge discovery process uses a probabilistic program defining the process of generating the data item from a set of unknown typed entities. Using probabilistic inference, Enterprise Alexandria can jointly discover a large set of entities with custom types specific to the organization. Experiments on three real-world datasets show that the system outperforms alternative methods with the ability to work effectively at large scale.",
+    "pdf": "/pdf/a32fb424a120926ee2158d604b32af157e093681.pdf",
+    "subject_areas": [
+      "Information Extraction",
+      "Machine Learning"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "winn|enterprise_alexandria_online_highprecision_enterprise_knowledge_base_construction_with_typed_entities",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nwinn2021enterprise,\ntitle={Enterprise Alexandria: Online High-Precision Enterprise Knowledge Base Construction with Typed Entities},\nauthor={John Winn and Matteo Venanzi and Tom Minka and Ivan Korostelev and John Guiver and Elena Pochernina and Pavel Mishkov and Alex Spengler and Denise Wilkins and Sian Lindley and Richard Banks and Sam Webster and Yordan Zaykov},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=0xDHnrK6S5B}\n}",
+    "forum_id": "0xDHnrK6S5B",
+    "UID": "1",
+    "author_profiles": [
+      "~John_Winn1",
+      "~Matteo_Venanzi1",
+      "~Tom_Minka1",
+      "",
+      "",
+      "~Elena_Pochernina1",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "~Yordan_Zaykov1"
+    ],
+    "doi": "doi:10.24432/C5JS3X"
+  },
+  {
+    "title": "Abg-CoQA: Clarifying Ambiguity in Conversational Question Answering",
+    "authorids": [
+      "~Meiqi_Guo1",
+      "~Mingda_Zhang1",
+      "~Siva_Reddy1",
+      "~Malihe_Alikhani2"
+    ],
+    "authors": [
+      "Meiqi Guo",
+      "Mingda Zhang",
+      "Siva Reddy",
+      "Malihe Alikhani"
+    ],
+    "keywords": [
+      "conversational question answering",
+      "ambiguity clarification",
+      "abg-coqa",
+      "clarification generation",
+      "clarification-based question answering"
+    ],
+    "TL;DR": "We introduce Abg-CoQA, a novel dataset for clarifying ambiguity in Conversational Question Answering systems. ",
+    "abstract": "Effective  communication  is  about  the  dissemination  of  properly  worded  meaningful ideas/messages that are comprehensible to both sender and receiver and which ultimately can attract the desired response or feedback.  For machines to engage in a conversation, it is therefore essential to enable them to clarify ambiguity and achieve a common ground.  We introduce Abg-CoQA, a novel dataset for clarifying ambiguity in Conversational Question Answering systems.  Our dataset contains 9k questions with answers where 1k questions are ambiguous, obtained from 4k text passages from five diverse domains.  For ambiguous questions,  a  clarification  conversational  turn  is  collected.   We  evaluate  strong  language generation models and conversational question answering models on Abg-CoQA. The best-performing system achieves a BLEU-1 score of 12.9% on generating clarification question, which  is  27.9  points  behind  human  performance  (40.8%);  and  a  F1  score  of  40.1%  on question  answering  after  clarification,  which  is  35.1  points  behind  human  performance (75.2%), indicating there is ample room for improvement.",
+    "pdf": "/pdf/60faf6a9f51f47eb2ea050b4980489dc3ac389a0.pdf",
+    "subject_areas": [
+      "Question Answering and Reasoning"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "guo|abgcoqa_clarifying_ambiguity_in_conversational_question_answering",
+    "_bibtex": "@inproceedings{\nguo2021abgcoqa,\ntitle={Abg-Co{QA}: Clarifying Ambiguity in Conversational Question Answering},\nauthor={Meiqi Guo and Mingda Zhang and Siva Reddy and Malihe Alikhani},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=SlDZ1o8FsJU}\n}",
+    "venueid": "AKBC.ws/2021/Conference",
+    "venue": "AKBC 2021",
+    "forum_id": "SlDZ1o8FsJU",
+    "UID": "73",
+    "author_profiles": [
+      "~Meiqi_Guo1",
+      "~Mingda_Zhang1",
+      "~Siva_Reddy1",
+      "~Malihe_Alikhani2"
+    ],
+    "doi": "doi:10.24432/C5F30Z"
+  },
+  {
+    "title": "A Joint Training Framework for Open-World Knowledge Graph Embeddings",
+    "authorids": [
+      "~Karthik_V1",
+      "~Beethika_Tripathi1",
+      "~Mitesh_M_Khapra1",
+      "~Balaraman_Ravindran1"
+    ],
+    "authors": [
+      "Karthik V",
+      "Beethika Tripathi",
+      "Mitesh M Khapra",
+      "Balaraman Ravindran"
+    ],
+    "keywords": [
+      "Knowledge Graph",
+      "Knowledge Graph completion",
+      "open-world embeddings"
+    ],
+    "TL;DR": "An efficient framework for learning open-world Knowledge graph embedding.",
+    "abstract": "Knowledge Graphs(KGs) represent factual information as graphs of entities connected by relations. Knowledge graph embeddings have emerged as a popular approach to encode this information for various downstream tasks like natural language inference, question answering and dialogue generation. As knowledge bases expand, we are presented with newer (open-world) entities, often with textual descriptions. We require techniques to embed new entities as they arrive using the textual information at hand. This task of open-world KG completion has received some attention in recent years. However, we find that existing approaches suffer from one or more of four drawbacks \u2013 1) They are not modular with respect to the choice of the KG embedding model 2) They ignore best practices for aligning two embedding spaces 3) They do not account for differences in training strategy needed when presented with datasets with different description sizes and 4) They do not produce entity embeddings for use by downstream tasks. To address these problems, we propose FOlK (Framework for Open-World KG embeddings) - a technique that jointly learns embeddings for KG entities from descriptions and KG structure for open-world knowledge graph completion. Additionally, we modify existing data sources and make available YAGO3-10- Open and WN18RR-Open two datasets that are well suited for demonstrating the efficacy of open-world KG completion approaches. Finally, we empirically demonstrate the effectiveness of our model in improving upon state-of-the-art baselines on several tasks resulting in performance increases of up to 72% on mean reciprocal rank.\n",
+    "pdf": "/pdf/74888d869c70452b6152dde9c383667055365ea9.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "v|a_joint_training_framework_for_openworld_knowledge_graph_embeddings",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nv2021a,\ntitle={A Joint Training Framework for Open-World Knowledge Graph Embeddings},\nauthor={Karthik V and Beethika Tripathi and Mitesh M Khapra and Balaraman Ravindran},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=HozL9BGbnKr}\n}",
+    "forum_id": "HozL9BGbnKr",
+    "UID": "67",
+    "author_profiles": [
+      "~Karthik_V1",
+      "~Beethika_Tripathi1",
+      "~Mitesh_M_Khapra1",
+      "~Balaraman_Ravindran1"
+    ],
+    "doi": "doi:10.24432/C5988G"
+  },
+  {
+    "title": "One-shot Learning for Temporal Knowledge Graphs",
+    "authorids": [
+      "~Mehrnoosh_Mirtaheri1",
+      "~Mohammad_Rostami1",
+      "~Xiang_Ren1",
+      "~Fred_Morstatter1",
+      "~Aram_Galstyan1"
+    ],
+    "authors": [
+      "Mehrnoosh Mirtaheri",
+      "Mohammad Rostami",
+      "Xiang Ren",
+      "Fred Morstatter",
+      "Aram Galstyan"
+    ],
+    "keywords": [
+      "Knowledge Graph Completion",
+      "Temporal Knowledge Graphs",
+      "Representation Learning",
+      "Few-Shot Learning",
+      "Meta-Learning"
+    ],
+    "abstract": "Most real-world knowledge graphs are characterized by a  frequency distribution with a long-tail where a significant fraction  of relations occurs only a handful of times. This observation has given rise to recent interest in low-shot learning methods that are able to generalize from only a few examples per relation. The existing approaches, however, are tailored to static knowledge graphs and do not easily generalize to temporal settings, where data scarcity poses even bigger problems, e.g., due to occurrence of new, previously unseen relations. We address this shortcoming by proposing a one-shot learning framework for link prediction in temporal knowledge graphs. Our proposed method employs a self-attention mechanism to effectively encode temporal interactions between entities, and  a network  to compute a similarity score between a given query and a (one-shot) example. Our experiments show that the proposed algorithm outperforms the state of the art baselines for two well-studied benchmarks while achieving significantly better performance for sparse relations.",
+    "pdf": "/pdf/5b515412d6fc8e7cfc2a104facef7f2cbec25039.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Machine Learning"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/a0be8b8b73f5b7ece5c395b434ca8fb29ae2f3e9.zip",
+    "paperhash": "mirtaheri|oneshot_learning_for_temporal_knowledge_graphs",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nmirtaheri2021oneshot,\ntitle={One-shot Learning for Temporal Knowledge Graphs},\nauthor={Mehrnoosh Mirtaheri and Mohammad Rostami and Xiang Ren and Fred Morstatter and Aram Galstyan},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=GF8wO8MFQOr}\n}",
+    "forum_id": "GF8wO8MFQOr",
+    "UID": "64",
+    "author_profiles": [
+      "~Mehrnoosh_Mirtaheri1",
+      "~Mohammad_Rostami1",
+      "~Xiang_Ren1",
+      "~Fred_Morstatter1",
+      "~Aram_Galstyan1"
+    ],
+    "doi": "doi:10.24432/C55K56"
+  },
+  {
+    "title": "KnowFi: Knowledge Extraction from Long Fictional Texts",
+    "authorids": [
+      "~Cuong_Xuan_Chu2",
+      "~Simon_Razniewski1",
+      "~Gerhard_Weikum1"
+    ],
+    "authors": [
+      "Cuong Xuan Chu",
+      "Simon Razniewski",
+      "Gerhard Weikum"
+    ],
+    "keywords": [
+      "relation extraction",
+      "long fictional texts",
+      "distant supervision",
+      "knowledge extraction"
+    ],
+    "TL;DR": "This paper presents a method for knowledge extraction from long fictional texts, called KnowFi, that combines BERT-enhanced neural learning with judicious selection and aggregation of text passages.",
+    "abstract": "Knowledge base construction has recently been extended to fictional domains like multi-volume novels and TV/movie series, aiming to support explorative queries for fans and sub-culture studies by humanities researchers. This task involves the extraction of relations between entities. State-of-the-art methods are geared for short input texts and basic relations, but fictional domains require tapping very long texts and need to cope with non-standard relations where distant supervision becomes sparse. \nThis work addresses these challenges by a novel method, called KnowFi, that combines BERT-enhanced neural learning with judicious selection and aggregation of text passages. Experiments with several fictional domains demonstrate the gains that KnowFi achieves over the best prior methods for neural relation extraction.",
+    "pdf": "/pdf/975c7cb27b442dfc6c35868cf271b0f92dad80f4.pdf",
+    "subject_areas": [
+      "Information Extraction"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/e65fdd9c2bfb29123dc75a728473cba1cb22691d.zip",
+    "paperhash": "chu|knowfi_knowledge_extraction_from_long_fictional_texts",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nchu2021knowfi,\ntitle={KnowFi: Knowledge Extraction from Long Fictional Texts},\nauthor={Cuong Xuan Chu and Simon Razniewski and Gerhard Weikum},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=8smkJ2ekBRC}\n}",
+    "forum_id": "8smkJ2ekBRC",
+    "UID": "61",
+    "author_profiles": [
+      "~Cuong_Xuan_Chu2",
+      "~Simon_Razniewski1",
+      "~Gerhard_Weikum1"
+    ],
+    "doi": "doi:10.24432/C51S38"
+  },
+  {
+    "title": "Open Temporal Relation Extraction for Question Answering",
+    "authorids": [
+      "~Chao_Shang1",
+      "~Peng_Qi1",
+      "~Guangtao_Wang1",
+      "~Jing_Huang3",
+      "~Youzheng_Wu2",
+      "~Bowen_Zhou4"
+    ],
+    "authors": [
+      "Chao Shang",
+      "Peng Qi",
+      "Guangtao Wang",
+      "Jing Huang",
+      "Youzheng Wu",
+      "Bowen Zhou"
+    ],
+    "keywords": [
+      "Temporal Question Answering",
+      "Open Temporal Relations"
+    ],
+    "abstract": "Understanding the temporal relations among events in text is a critical aspect of reading comprehension, which can be evaluated in the form of temporal question answering (TQA). When explicit timestamps are absent, TQA is a challenging task that requires models to understand the nuanced difference in textual expressions that indicate different temporal relations (e.g., \"What happened right before dawn\" indicates a small subset of \"What happened before dawn\"). In this paper, we propose to reformulate the task of TQA as open temporal relation extraction. Specifically, we decompose each question into a question event (e.g., \"dawn\") and an open temporal relation (OTR, e.g., \"happened before\") which is not pre-defined nor with timestamps, and ground the former in the context while sharing the representation of the latter across contexts. This OTR for QA formulation has two advantages: 1) it allows us to learn context-agnostic, free-text-based relation representations that generalize across different contexts and events, which leads to higher data efficiency; 2) it allows us to explicitly model the differences in temporal relations with a contrastive loss function, which helps better capture mutually exclusive relations (e.g., an event cannot simultaneously \"happen before\" and \"happen after\" another) as well as more nuanced differences (e.g., not everything that \"happened before\" an event \"happened right before\" it). Empirical evaluations on the TORQUE challenge, a recently released dataset for temporal ordering questions, show that our approach attains significant improvements correspondingly over the state of the art performance, especially gains more on EM consistency computed on the contrast question sets. ",
+    "pdf": "/pdf/f912bd7a116224b5b87b3483f0907167141a5194.pdf",
+    "subject_areas": [
+      "Question Answering and Reasoning"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "shang|open_temporal_relation_extraction_for_question_answering",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nshang2021open,\ntitle={Open Temporal Relation Extraction for Question Answering},\nauthor={Chao Shang and Peng Qi and Guangtao Wang and Jing Huang and Youzheng Wu and Bowen Zhou},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=li-3nHhT0xc}\n}",
+    "forum_id": "li-3nHhT0xc",
+    "UID": "60",
+    "author_profiles": [
+      "~Chao_Shang1",
+      "~Peng_Qi1",
+      "~Guangtao_Wang1",
+      "~Jing_Huang3",
+      "~Youzheng_Wu2",
+      "~Bowen_Zhou4"
+    ],
+    "doi": "doi:10.24432/C5X309"
+  },
+  {
+    "title": "Regex Queries over Incomplete Knowledge Bases",
+    "authorids": [
+      "~Vaibhav_Adlakha1",
+      "parthushah8@gmail.com",
+      "~Srikanta_J._Bedathur1",
+      "~Mausam_.1"
+    ],
+    "authors": [
+      "Vaibhav Adlakha",
+      "Parth Shah",
+      "Srikanta J. Bedathur",
+      "Mausam ."
+    ],
+    "keywords": [
+      "regex",
+      "regular expressions",
+      "kleene",
+      "plus",
+      "disjunction",
+      "box embeddings",
+      "knowledge base completion"
+    ],
+    "TL;DR": "We present Regex Query Answering, the novel task of answering regex queries on incomplete KBs",
+    "abstract": "We propose the novel task of answering regular expression queries (containing disjunction  ($\\vee$)  and  Kleene plus  ($+$)  operators)  over incomplete  KBs.   The answer set of these queries potentially has a large number of entities,  hence previous works for single-hop queries in KBC  that model a  query as a  point in high-dimensional space are not as effective.   In response,  we develop RotatE-Box \u2013 a  novel combination of RotatE and Box embeddings.   It can model more relational inference patterns compared to existing embedding-based models.  Furthermore, we define baseline approaches for embedding-based KBC models to handle regex operators.  We demonstrate the performance of RotatE-Box on two new regex-query datasets introduced in this paper,  including one where the queries are harvested based on actual user query logs.  We find that our final RotatE-Box models significantly outperform models based on just Rotate and just box embeddings.",
+    "pdf": "/pdf/f008b2c9295d6a552074967d1130ebbd70983c8e.pdf",
+    "subject_areas": [
+      "Applications",
+      "Machine Learning",
+      "Relational AI"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/e6cf6a35cd6e1c859dd9e1aaf75c8a569ff24b98.zip",
+    "paperhash": "adlakha|regex_queries_over_incomplete_knowledge_bases",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nadlakha2021regex,\ntitle={Regex Queries over Incomplete Knowledge Bases},\nauthor={Vaibhav Adlakha and Parth Shah and Srikanta J. Bedathur and Mausam .},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=4YQVfA5vEJS}\n}",
+    "forum_id": "4YQVfA5vEJS",
+    "UID": "59",
+    "author_profiles": [
+      "~Vaibhav_Adlakha1",
+      "",
+      "~Srikanta_J._Bedathur1",
+      "~Mausam_Mausam2"
+    ],
+    "doi": "doi:10.24432/C5S88T"
+  },
+  {
+    "title": "Analyzing Commonsense Emergence in Few-shot Knowledge Models",
+    "authorids": [
+      "~Jeff_Da1",
+      "~Ronan_Le_Bras1",
+      "~Ximing_Lu1",
+      "~Yejin_Choi1",
+      "~Antoine_Bosselut1"
+    ],
+    "authors": [
+      "Jeff Da",
+      "Ronan Le Bras",
+      "Ximing Lu",
+      "Yejin Choi",
+      "Antoine Bosselut"
+    ],
+    "keywords": [
+      "commonsense",
+      "knowledge",
+      "graph",
+      "language",
+      "models"
+    ],
+    "TL;DR": "We train commonsense knowledge models in few-shot settings to study the emergence of their commonsense representation abilities.",
+    "abstract": "Recently, commonsense knowledge models --- pretrained language models (LM) fine-tuned on knowledge graph (KG) tuples --- showed that considerable amounts of commonsense knowledge can be encoded in the parameters of large language models.\nHowever, as parallel studies show that LMs are poor hypothesizers of declarative commonsense relationships on their own, it remains unclear whether this knowledge is learned during pretraining or from fine-tuning on KG examples.\n\nTo investigate this question, we train commonsense knowledge models in few-shot settings to study the emergence of their commonsense representation abilities. Our results show that commonsense knowledge models can rapidly adapt from limited examples, indicating that KG fine-tuning serves to learn an interface to encoded knowledge learned during pretraining. Importantly, our analysis of absolute, angular, and distributional parameter changes during few-shot fine-tuning provides novel insights into how this interface is learned.",
+    "pdf": "/pdf/3f5b7fe98e26da3cdc59ebe5dd5e514923abb1e9.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Question Answering and Reasoning"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "da|analyzing_commonsense_emergence_in_fewshot_knowledge_models",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nda2021analyzing,\ntitle={Analyzing Commonsense Emergence in Few-shot Knowledge Models},\nauthor={Jeff Da and Ronan Le Bras and Ximing Lu and Yejin Choi and Antoine Bosselut},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=StHCELh9PVE}\n}",
+    "forum_id": "StHCELh9PVE",
+    "UID": "58",
+    "author_profiles": [
+      "~Jeff_Da1",
+      "~Ronan_Le_Bras1",
+      "~Ximing_Lu1",
+      "~Yejin_Choi1",
+      "~Antoine_Bosselut1"
+    ],
+    "doi": "doi:10.24432/C5NK5J"
+  },
+  {
+    "title": "Behavioral Testing of Knowledge Graph Embedding Models for Link Prediction",
+    "authorids": [
+      "~Wiem_Ben_Rim1",
+      "~Carolin_Lawrence1",
+      "~Kiril_Gashteovski1",
+      "~Mathias_Niepert1",
+      "~Naoaki_Okazaki2"
+    ],
+    "authors": [
+      "Wiem Ben Rim",
+      "Carolin Lawrence",
+      "Kiril Gashteovski",
+      "Mathias Niepert",
+      "Naoaki Okazaki"
+    ],
+    "keywords": [
+      "KGE",
+      "KG",
+      "Knowledge Graph",
+      "Knowledge Graph Embeddings",
+      "Behavioral Testing",
+      "Rotate",
+      "Distmult",
+      "Complex",
+      "HAKE",
+      "HyperKG",
+      "LineaRE",
+      "symmetry",
+      "hierarchy"
+    ],
+    "TL;DR": "We introduce behavioral testing for Knowledge Graph Embedding models",
+    "abstract": "Knowledge graph embedding (KGE) models are often used to encode knowledge graphs in order to predict new links inside the graph. The accuracy of these methods is typically evaluated by computing an averaged accuracy metric on a held-out test set. This approach, however, does not allow the identification of \\emph{where} the models might systematically fail or succeed. To address this challenge, we propose a new evaluation framework that builds on the idea of (black-box) behavioral testing, a software engineering principle that enables users to detect system failures before deployment. \nWith behavioral tests, we can specifically target and evaluate the behavior of KGE models on specific capabilities deemed important in the context of a particular use case. To this end, we leverage existing knowledge graph schemas to design behavioral tests for the link prediction task. With an extensive set of experiments, we perform and analyze these tests for several KGE models. Crucially, we for example find that a model ranked second to last on the original test set actually performs best when tested for a specific capability. Such insights allow users to better choose which KGE model might be most suitable for a particular task. The framework is extendable to additional behavioral tests and we hope to inspire fellow researchers to join us in collaboratively growing this framework. ",
+    "pdf": "/pdf/3099193ffbc14444afc1232adfd1effe222b81fb.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "rim|behavioral_testing_of_knowledge_graph_embedding_models_for_link_prediction",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nrim2021behavioral,\ntitle={Behavioral Testing of Knowledge Graph Embedding Models for Link Prediction},\nauthor={Wiem Ben Rim and Carolin Lawrence and Kiril Gashteovski and Mathias Niepert and Naoaki Okazaki},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=3_2B2MliB8V}\n}",
+    "forum_id": "3_2B2MliB8V",
+    "UID": "53",
+    "author_profiles": [
+      "~Wiem_Ben_Rim1",
+      "~Carolin_Lawrence1",
+      "~Kiril_Gashteovski1",
+      "~Mathias_Niepert1",
+      "~Naoaki_Okazaki2"
+    ],
+    "doi": "doi:10.24432/C5HS3M"
+  },
+  {
+    "title": "Multilingual Fact Linking",
+    "authorids": [
+      "~Keshav_Kolluru1",
+      "martinrezk@google.com",
+      "~Pat_Verga1",
+      "~William_W._Cohen2",
+      "~Partha_Talukdar1"
+    ],
+    "authors": [
+      "Keshav Kolluru",
+      "Martin Rezk",
+      "Pat Verga",
+      "William W. Cohen",
+      "Partha Talukdar"
+    ],
+    "keywords": [
+      "Fact Linking",
+      "Multilinguality",
+      "KGs",
+      "Dual-Cross Encoders",
+      "Retrieval+Generation"
+    ],
+    "TL;DR": "We introduce Multilingual Fact Linking (MFL), a new task to link KG facts in one language to text of another language. We present a new dataset, IndicLink, and demonstrate effectiveness of a Retrieval+Generation model for the MFL task.",
+    "abstract": "Knowledge-intensive NLP tasks can benefit from linking natural language text with facts from a  Knowledge Graph (KG). Although facts themselves are language-agnostic, the fact labels (i.e., language-specific representation of the fact) in the KG are often present only in a few languages. This makes it challenging to link KG facts to sentences in languages other than the limited set of languages. To address this problem, we introduce the task of Multilingual Fact Linking (MFL) where the goal is to link fact expressed in a sentence to corresponding fact in the KG, even when the fact label in the KG is not available in the language of the sentence. We additionally consider cases where the sentence does not contain the complete fact but expresses it only partially. To facilitate research in this area, we present a new evaluation dataset, IndicLink. This dataset contains 11,293 linked WikiData facts and 6,429 sentences spanning English and six Indian languages. We propose a Retrieval+Generation model, ReFCoG, that can scale to millions of KG facts by combining Dual Encoder based retrieval with a Seq2Seq based generation model which is constrained to output only valid KG facts. ReFCoG outperforms standard Retrieval+Re-ranking models by 10.7 pts in Precision@1. In spite of this gain, the model achieves an overall score of 52.1, showing ample scope for improvement in the task.",
+    "pdf": "/pdf/1a2c9f336e2ccd33f3763407854f4ec934f6bb41.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Information Extraction"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "kolluru|multilingual_fact_linking",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nkolluru2021multilingual,\ntitle={Multilingual Fact Linking},\nauthor={Keshav Kolluru and Martin Rezk and Pat Verga and William W. Cohen and Partha Talukdar},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=jbnn1iNNsUj}\n}",
+    "forum_id": "jbnn1iNNsUj",
+    "UID": "52",
+    "author_profiles": [
+      "~Keshav_Kolluru1",
+      "",
+      "~Pat_Verga1",
+      "~William_W._Cohen2",
+      "~Partha_Talukdar1"
+    ],
+    "doi": "doi:10.24432/C5D30N"
+  },
+  {
+    "title": "A Case Study in Bootstrapping Ontology Graphs from Textbooks",
+    "authorids": [
+      "~Vinay_K._Chaudhri1",
+      "mattboggess7@gmail.com",
+      "hanlanung@stanford.edu",
+      "~Debshila_Basu_Mallick1",
+      "andrew.e.waters@gmail.com",
+      "~Richard_Baraniuk1"
+    ],
+    "authors": [
+      "Vinay K. Chaudhri",
+      "Matthew Boggess",
+      "Han Lin Aung",
+      "Debshila Basu Mallick",
+      "Andrew C Waters",
+      "Richard Baraniuk"
+    ],
+    "keywords": [
+      "Ontology",
+      "Education",
+      "Lanugage Models",
+      "BERT"
+    ],
+    "TL;DR": "Baseline performance of BERT on entity and extraction from textbooks, and a novel labeling task for improving its performance",
+    "abstract": "Ontology graphs are graphs in which the nodes are generic classes and edges have labels that specify the relationships between the classes.  In this paper, we address the question:to what extent can automated extraction and crowdsourcing techniques be combined to boostrap  the  creation  of  comprehensive  and  accurate  ontology  knowledge  graphs?   By adapting  the  state-of-the-art  language  model  BERT  to  the  task,  and  leveraging  a  novel relationship selection task, we show that even though it is difficult to achieve a high precision and recall, automated term extraction and crowd sourcing provide a way to bootstrap the ontology graph creation for further refinement and improvement through human effort.",
+    "pdf": "/pdf/be9d2423b4a4db6a4dcbe25ff6b313e6a5bc75a6.pdf",
+    "subject_areas": [],
+    "archival_status": "Archival",
+    "paperhash": "chaudhri|a_case_study_in_bootstrapping_ontology_graphs_from_textbooks",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nchaudhri2021a,\ntitle={A Case Study in Bootstrapping Ontology Graphs from Textbooks},\nauthor={Vinay K. Chaudhri and Matthew Boggess and Han Lin Aung and Debshila Basu Mallick and Andrew C Waters and Richard Baraniuk},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=nDe2D8DDXKR}\n}",
+    "forum_id": "nDe2D8DDXKR",
+    "UID": "48",
+    "author_profiles": [
+      "~Vinay_K._Chaudhri1",
+      "",
+      "",
+      "~Debshila_Basu_Mallick1",
+      "",
+      "~Richard_Baraniuk1"
+    ],
+    "doi": "doi:10.24432/C58C7T"
+  },
+  {
+    "title": "Relation Prediction as an Auxiliary Training Objective for Improving Multi-Relational Graph Representations",
+    "authorids": [
+      "~Yihong_Chen3",
+      "~Pasquale_Minervini1",
+      "~Sebastian_Riedel1",
+      "~Pontus_Stenetorp1"
+    ],
+    "authors": [
+      "Yihong Chen",
+      "Pasquale Minervini",
+      "Sebastian Riedel",
+      "Pontus Stenetorp"
+    ],
+    "keywords": [
+      "knowledge base completion",
+      "relation prediction",
+      "multi-relational graph"
+    ],
+    "TL;DR": "A simple auxiliary training objective to improve multi-relational graph representation learning",
+    "abstract": "Learning good representations of multi-relational graphs is essential to downstream applications like knowledge base completion (KBC). In this paper, we propose a new self-supervised objective for mult-relational graph representation learning, via simply incorporating relation prediction into the commonly used 1vsAll objective. We analyse how this new objective impacts multi-relational learning in KBC. Experiments on a variety of datasets and models show that relation prediction can significantly improve entity ranking, the most widely used evaluation task for KBC, yielding a  $6.1\\%$ increase in MRR and $9.9\\%$ increase in Hits@1 on FB15k-237 as well as a $3.1 \\%$ increase in MRR and $3.4\\%$ in Hits@1 on Aristo-v4. Moreover, we observe that the proposed objective is especially effective on highly multi-relational datasets i.e. datasets with a large number of predicates, and generates better representations when larger embedding sizes are used.",
+    "pdf": "/pdf/4ab4a721ec38dc25826a8e3df88a43a33da85c54.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Machine Learning",
+      "Relational AI"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "chen|relation_prediction_as_an_auxiliary_training_objective_for_improving_multirelational_graph_representations",
+    "_bibtex": "@inproceedings{\nchen2021relation,\ntitle={Relation Prediction as an Auxiliary Training Objective for Improving Multi-Relational Graph Representations},\nauthor={Yihong Chen and Pasquale Minervini and Sebastian Riedel and Pontus Stenetorp},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=Qa3uS3H7-Le}\n}",
+    "venueid": "AKBC.ws/2021/Conference",
+    "venue": "AKBC 2021",
+    "forum_id": "Qa3uS3H7-Le",
+    "UID": "43",
+    "author_profiles": [
+      "~Yihong_Chen3",
+      "~Pasquale_Minervini1",
+      "~Sebastian_Riedel1",
+      "~Pontus_Stenetorp1"
+    ],
+    "doi": "doi:10.24432/C54K5W"
+  },
+  {
+    "title": "SHINRA2020-ML: Categorizing 30-language Wikipedia into fine-grained NE based on \"``Resource by Collaborative Contribution\" scheme",
+    "authorids": [
+      "~Satoshi_Sekine1",
+      "kouta.tanakaya@riken.jp",
+      "maya@kzd.biglobe.ne.jp",
+      "yu@usami.lc",
+      "masako.nomoto@riken.jp",
+      "matsuda@ecei.tohoku.ac.jp"
+    ],
+    "authors": [
+      "Satoshi Sekine",
+      "Kouta Nakayama",
+      "Maya Ando",
+      "Yu Usami",
+      "Masako Nomoto",
+      "Koji Matsuda"
+    ],
+    "keywords": [
+      "Structured Knowledge",
+      "Wikipedia",
+      "Shared-task",
+      "Resource by Collaborative Contribution"
+    ],
+    "abstract": "This paper describes a Knowledge Base construction project, SHINRA and particularly the SHINRA2020-ML task. The SHINRA2020-ML task is to categorize 30-language Wikipedia pages into \ffine-grained named entity categories, called \"Extended Named Entity (ENE)\". It is one of the three tasks conducted on SHINRA since 2018. SHINRA is a collaborative contribution scheme that utilize Automatic Knowledge Base Construction (AKBC) systems. This project aims to create a huge and well-structured knowledge base essential for many NLP applications, such as QA, dialogue systems and explainable NLP systems.\n\nIn our \"Resource by Collaborative Contribution (RbCC)\" scheme, we conducted a shared task of structuring Wikipedia to attract participants but simultaneously submitted results are used to construct a knowledge base. One trick is that the participants are not notified of the test data, so they have to run their systems on all entities in Wikipedia, although the evaluation results are reported for only a small portion of the test data among the entire data. Using this method, the organizers receive multiple outputs of the entire data from the participants. The submitted outputs are publicly accessible and are applied to building better structured knowledge using ensemble learning, for example. In other words, this project uses AKBC systems to construct a huge and well-structured Knowledge Base collaboratively.\n\nThe \"SHINRA2020-ML\" task is also based on the RbCC scheme. The task categorizes 30-language Wikipedia pages into ENE. We previously categorized the entire Japanese Wikipedia entities (920 thousand entities) into ENE by ML and then checked by hands. For SHINRA2020-ML task participants, we provided the training data using categories of the Japanese Wikipedia and language links from the page. For example, out of 920K Japanese Wikipedia pages, 275K have language links to German pages. These data are\nused to create the training data for German and the task is to categorize the remaining 1,946K pages. We conducted a shared task for 30 languages with the largest active users, and 10 groups participated. We showed that the results by simple ensemble learning, i.e.,\nmajority voting, exceed top results in 17 languages, thereby proving the usefulness of the \"RbCC\" scheme.\n\nWe are conducting two tasks in 2021, SHINRA2021-LinkJP and SHINRA2021-ML tasks. We will introduce these tasks in a later section of the paper.",
+    "pdf": "/pdf/f6069385dee5fb6063bbd984de66abaa015a94f1.pdf",
+    "subject_areas": [
+      "Databases"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "sekine|shinra2020ml_categorizing_30language_wikipedia_into_finegrained_ne_based_on_``resource_by_collaborative_contribution_scheme",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nsekine2021shinraml,\ntitle={{SHINRA}2020-{ML}: Categorizing 30-language Wikipedia into fine-grained {NE} based on ''``Resource by Collaborative Contribution'' scheme},\nauthor={Satoshi Sekine and Kouta Nakayama and Maya Ando and Yu Usami and Masako Nomoto and Koji Matsuda},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=6xhX4nnBhbJ}\n}",
+    "forum_id": "6xhX4nnBhbJ",
+    "UID": "42",
+    "author_profiles": [
+      "~Satoshi_Sekine1",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "doi": "doi:10.24432/C50W2M"
+  },
+  {
+    "title": "Phrase Retrieval Learns Passage Retrieval, Too",
+    "authorids": [
+      "~Jinhyuk_Lee2",
+      "~Alexander_Wettig1",
+      "~Danqi_Chen1"
+    ],
+    "authors": [
+      "Jinhyuk Lee",
+      "Alexander Wettig",
+      "Danqi Chen"
+    ],
+    "keywords": [
+      "dense retrieval",
+      "open-domain question answering",
+      "entity linking",
+      "knowledge-grounded dialogue"
+    ],
+    "abstract": "Dense retrieval methods have shown great promise over sparse retrieval methods in a range of NLP problems. Among them, dense phrase retrieval\u2014the most fine-grained retrieval unit\u2014is appealing because phrases can be directly used as the output for question answering and slot filling tasks. In this work, we follow the intuition that retrieving phrases naturally entails retrieving larger text blocks and study whether phrase retrieval can serve as the basis for coarse-level retrieval including passages and documents. We first observe that a dense phrase-retrieval system, without any retraining, already achieves better passage retrieval accuracy (+3-5% in top-5 accuracy) compared to passage retrievers, which also helps achieve superior end-to-end QA performance with fewer passages. Then, we provide an interpretation for why phrase-level supervision helps learn better fine-grained entailment compared to passage-level supervision, and also show that phrase retrieval can be improved to achieve competitive performance in document-retrieval tasks such as entity linking and knowledge-grounded dialogue. Finally, we demonstrate how phrase filtering and vector quantization can reduce the size of our index by 4-10x, making dense phrase retrieval a practical and versatile solution in multi-granularity retrieval.",
+    "pdf": "/pdf/9890f98c9d0d3157e3d49870590fc4967626126e.pdf",
+    "subject_areas": [
+      "Question Answering and Reasoning",
+      "Machine Learning"
+    ],
+    "archival_status": "Non-Archival",
+    "supplementary_material": "/attachment/6726faafe011f5678ad9c0f04940bf94c22c6809.zip",
+    "paperhash": "lee|phrase_retrieval_learns_passage_retrieval_too",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nlee2021phrase,\ntitle={Phrase Retrieval Learns Passage Retrieval, Too},\nauthor={Jinhyuk Lee and Alexander Wettig and Danqi Chen},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=7aIsabcVqMH}\n}",
+    "forum_id": "7aIsabcVqMH",
+    "UID": "38",
+    "author_profiles": [
+      "~Jinhyuk_Lee2",
+      "~Alexander_Wettig1",
+      "~Danqi_Chen1"
+    ],
+    "doi": ""
+  },
+  {
+    "title": "Reasoning with Transformer-based Models: Deep Learning, but Shallow Reasoning",
+    "authorids": [
+      "~Chadi_Helwe1",
+      "~Chlo\u00e9_Clavel2",
+      "~Fabian_M._Suchanek1"
+    ],
+    "authors": [
+      "Chadi Helwe",
+      "Chlo\u00e9 Clavel",
+      "Fabian M. Suchanek"
+    ],
+    "keywords": [
+      "Logical Reasoning",
+      "Mathematical Reasoning",
+      "Commonsense Reasoning",
+      "Transformers",
+      "BERT"
+    ],
+    "abstract": "Recent years have seen impressive performance of transformer-based models on different natural language processing tasks. However, it is not clear to what degree the transformers can reason on natural language. To shed light on this question, this survey paper discusses the performance of transformers on different reasoning tasks, including mathematical reasoning, commonsense reasoning, and logical reasoning. We point out successes and limitations, of both empirical and theoretical nature.\n",
+    "pdf": "/pdf/70ba29bc1285c5843461565bc2786a8c8b717d35.pdf",
+    "subject_areas": [
+      "Question Answering and Reasoning"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/e20c36ae7558cf7ad9198a280e544d004ee18ede.zip",
+    "paperhash": "helwe|reasoning_with_transformerbased_models_deep_learning_but_shallow_reasoning",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nhelwe2021reasoning,\ntitle={Reasoning with Transformer-based Models: Deep Learning, but Shallow Reasoning},\nauthor={Chadi Helwe and Chlo{\\'e} Clavel and Fabian M. Suchanek},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=Ozp1WrgtF5_}\n}",
+    "forum_id": "Ozp1WrgtF5_",
+    "UID": "37",
+    "author_profiles": [
+      "~Chadi_Helwe1",
+      "~Chlo\u00e9_Clavel1",
+      "~Fabian_M._Suchanek1"
+    ],
+    "doi": "doi:10.24432/C5W300"
+  },
+  {
+    "title": "Prompt Tuning or Fine-Tuning - Investigating Relational Knowledge in Pre-Trained Language Models",
+    "authorids": [
+      "~Leandra_Fichtel1",
+      "~Jan-Christoph_Kalo1",
+      "~Wolf-Tilo_Balke1"
+    ],
+    "authors": [
+      "Leandra Fichtel",
+      "Jan-Christoph Kalo",
+      "Wolf-Tilo Balke"
+    ],
+    "keywords": [
+      "Relational Knowledge Extraction",
+      "Language Models",
+      "Prompt Tuning",
+      "Adaptive Fine-Tuning",
+      "Knowledge Bases"
+    ],
+    "TL;DR": "Achieving superior cloze-style fact extraction performance with adaptive fine-tuning on language models",
+    "abstract": "Extracting relational knowledge from large pre-trained language models by a cloze-style sentence serving as a query has shown promising results. In particular, language models can be queried similar to knowledge graphs. The performance of the relational fact extraction task depends significantly on the query sentence, also known under the term prompt. Tuning these prompts has shown to increase the precision on standard language models by a maximum of around 12% points. However, usually large amounts of data in the form of existing knowledge graph facts and large text corpora are needed to train the required additional model.\nIn this work, we propose using a completely different approach: Instead of spending resources on training an additional model, we simply perform an adaptive fine-tuning of the pre-trained language model on the standard fill-mask task using a small training dataset of existing facts from a knowledge graph. We investigate the differences between complex prompting techniques and adaptive fine-tuning in an extensive evaluation. Remarkably, adaptive fine-tuning outperforms all baselines, even by using significantly fewer training facts. Additionally, we analyze the transfer learning capabilities of this adapted language model by training on a restricted set of relations to show that even fewer training relations are needed to achieve high knowledge extraction quality.",
+    "pdf": "/pdf/cb7f9fd36dac8e18013f0b46d90c77fac315b664.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Information Extraction",
+      "Machine Learning"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/cd9cf8f7d4f785bc57fdf82a6c16c78060250649.zip",
+    "paperhash": "fichtel|prompt_tuning_or_finetuning_investigating_relational_knowledge_in_pretrained_language_models",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nfichtel2021prompt,\ntitle={Prompt Tuning or Fine-Tuning - Investigating Relational Knowledge in Pre-Trained Language Models},\nauthor={Leandra Fichtel and Jan-Christoph Kalo and Wolf-Tilo Balke},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=o7sMlpr9yBW}\n}",
+    "forum_id": "o7sMlpr9yBW",
+    "UID": "36",
+    "author_profiles": [
+      "~Leandra_Fichtel1",
+      "~Jan-Christoph_Kalo1",
+      "~Wolf-Tilo_Balke1"
+    ],
+    "doi": "doi:10.24432/C5RC75"
+  },
+  {
+    "title": "Multilingual Knowledge Graph Completion With Joint Relation and Entity Alignment",
+    "authorids": [
+      "~Harkanwar_Singh1",
+      "~Soumen_Chakrabarti1",
+      "~PRACHI_JAIN2",
+      "sharod.roy@gmail.com",
+      "~Mausam_.1"
+    ],
+    "authors": [
+      "Harkanwar Singh",
+      "Soumen Chakrabarti",
+      "PRACHI JAIN",
+      "Sharod Roy Choudhury",
+      "Mausam ."
+    ],
+    "keywords": [
+      "knowledge base completion",
+      "multilinguality",
+      "entity alignment",
+      "relation alignment",
+      "knowledge graph completion"
+    ],
+    "TL;DR": "a new task and model for joint training of knowledge graph completion, entity alignment and relation alignment in multilingual KGs",
+    "abstract": "Knowledge Graph Completion (KGC) predicts missing facts in an incomplete Knowledge Graph. We study Multilingual KGC for KGs that associate entities and relations with surface forms from different languages. In such a setting, an entity (or relation) may be mentioned as separate IDs in different KGs, necessitating entity alignment (EA) and relation alignment (RA). In addition to EA and RA being important subtasks for Multilingual KGC, we posit that high confidence fact predictions may also, in turn, add valuable information for alignment tasks, and vice versa. In response, we present the novel task of jointly training multilingual KGC, EA and RA models. Our approach, AlignKGC, uses mBERT-based surface form overlap for EA, and combines it with a KGC approach, extended to the multiple KG setting via a loss term that incentivizes RA. On experiments with DBPedia in five languages, we find that ALIGNKGC achieves upto 17% absolute MRR improvements in KGC compared to a strong completion model that combines all facts. It also outperforms an mBERT-only alignment baseline for EA, underscoring the value of joint training for these tasks.\n",
+    "pdf": "/pdf/b93e348b7f973461ccd768f45e7485f42638ea64.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Question Answering and Reasoning"
+    ],
+    "archival_status": "Non-Archival",
+    "supplementary_material": "/attachment/e12516e8f4326e8f7f5657bae89142b004223cc6.zip",
+    "paperhash": "singh|multilingual_knowledge_graph_completion_with_joint_relation_and_entity_alignment",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nsingh2021multilingual,\ntitle={Multilingual Knowledge Graph Completion With Joint Relation and Entity Alignment},\nauthor={Harkanwar Singh and Soumen Chakrabarti and PRACHI JAIN and Sharod Roy Choudhury and Mausam .},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=FTzU__68rp8}\n}",
+    "forum_id": "FTzU__68rp8",
+    "UID": "29",
+    "author_profiles": [
+      "~Harkanwar_Singh1",
+      "~Soumen_Chakrabarti1",
+      "~PRACHI_JAIN2",
+      "~Sharod_Roy_Choudhury1",
+      "~Mausam_Mausam2"
+    ],
+    "doi": ""
+  },
+  {
+    "title": "SAFRAN: An interpretable, rule-based link prediction method outperforming embedding models",
+    "authorids": [
+      "~Simon_Ott1",
+      "~Christian_Meilicke1",
+      "~Matthias_Samwald1"
+    ],
+    "authors": [
+      "Simon Ott",
+      "Christian Meilicke",
+      "Matthias Samwald"
+    ],
+    "keywords": [
+      "Knowledge Graph Completion",
+      "Link Prediction",
+      "Interpretable Link Prediction"
+    ],
+    "TL;DR": "In this paper, an algorithm is introduced that detetects and clusters redundant rules in the context of interpretable rule-based link prediction.",
+    "abstract": "Neural embedding-based machine learning models have shown promise for predicting novel links in knowledge graphs. Unfortunately, their practical utility is diminished by their lack of interpretability. Recently, the fully interpretable, rule-based algorithm AnyBURL yielded highly competitive results on many general-purpose link prediction benchmarks. However, current approaches for aggregating predictions made by multiple rules are affected by redundancies. We improve upon AnyBURL by introducing the SAFRAN rule application framework, which uses a novel aggregation approach called Non-redundant Noisy-OR that detects and clusters redundant rules prior to aggregation. SAFRAN yields new state-of-the-art results for fully interpretable link prediction on the established general-purpose benchmarks FB15K-237, WN18RR and YAGO3-10. Furthermore, it exceeds the results of multiple established embedding-based algorithms on FB15K-237 and WN18RR and narrows the gap between rule-based and embedding-based algorithms on YAGO3-10",
+    "pdf": "/pdf/462793d9d0fdc00e58c0f40f2c1d344608c04607.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Machine Learning"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/2941b34a2d01a668ddbb37a360b2bfe69c86b942.zip",
+    "paperhash": "ott|safran_an_interpretable_rulebased_link_prediction_method_outperforming_embedding_models",
+    "_bibtex": "@inproceedings{\nott2021safran,\ntitle={{SAFRAN}: An interpretable, rule-based link prediction method outperforming embedding models},\nauthor={Simon Ott and Christian Meilicke and Matthias Samwald},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=jCt9S_3w_S9}\n}",
+    "venueid": "AKBC.ws/2021/Conference",
+    "venue": "AKBC 2021",
+    "forum_id": "jCt9S_3w_S9",
+    "UID": "28",
+    "author_profiles": [
+      "~Simon_Ott1",
+      "~Christian_Meilicke1",
+      "~Matthias_Samwald1"
+    ],
+    "doi": "doi:10.24432/C5MK57"
+  },
+  {
+    "title": "Modelling Monotonic and Non-Monotonic Attribute Dependencies with Embeddings: A Theoretical Analysis",
+    "authorids": [
+      "~Steven_Schockaert1"
+    ],
+    "authors": [
+      "Steven Schockaert"
+    ],
+    "keywords": [
+      "Entity embeddings",
+      "learning & reasoning",
+      "theoretical limitations"
+    ],
+    "TL;DR": "We theoretically analyse whether logical dependencies between attributes can be modelled in terms of entity and attribute embeddings.",
+    "abstract": "During the last decade, entity embeddings have become ubiquitous in Artificial Intelligence. Such embeddings essentially serve as compact but semantically meaningful representations of the entities of interest. In most approaches, vectors are used for representing the entities themselves, as well as for representing their associated attributes. An important advantage of using attribute embeddings is that (some of the) semantic dependencies between the attributes can thus be captured. However, little is known about what kinds of semantic dependencies can be modelled in this way. The aim of this paper is to shed light on this question, focusing on settings where the embedding of an entity is obtained by pooling the embeddings of its known attributes. Our particular focus is on studying the theoretical limitations of different embedding strategies, rather than their ability to effectively learn attribute dependencies in practice. We first show a number of negative results, revealing that some of the most popular embedding models are not able to capture even basic Horn rules. However, we also find that some embedding strategies are capable, in principle, of modelling both monotonic and non-monotonic attribute dependencies. ",
+    "pdf": "/pdf/c64b67c5a8da35503dc0a6fe5f723d4e81f329de.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Machine Learning"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "schockaert|modelling_monotonic_and_nonmonotonic_attribute_dependencies_with_embeddings_a_theoretical_analysis",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nschockaert2021modelling,\ntitle={Modelling Monotonic and Non-Monotonic Attribute Dependencies with Embeddings: A Theoretical Analysis},\nauthor={Steven Schockaert},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=U2adryQpew5}\n}",
+    "forum_id": "U2adryQpew5",
+    "UID": "26",
+    "author_profiles": [
+      "~Steven_Schockaert1"
+    ],
+    "doi": "doi:10.24432/C5GW2Z"
+  },
+  {
+    "title": "Neural Concept Formation in Knowledge Graphs",
+    "authorids": [
+      "~Agnieszka_Dobrowolska1",
+      "~antonio_vergari1",
+      "~Pasquale_Minervini1"
+    ],
+    "authors": [
+      "Agnieszka Dobrowolska",
+      "antonio vergari",
+      "Pasquale Minervini"
+    ],
+    "keywords": [
+      "knowledge graphs",
+      "link prediction",
+      "concepts"
+    ],
+    "TL;DR": "We learn novel concepts in KGs, use them to augment the KG and learn more accurate neural link predictor models.",
+    "abstract": "In this work, we investigate how to learn novel concepts in Knowledge Graphs (KGs) in a principled way, and how to effectively exploit them to produce more accurate neural link prediction models. Specifically, we show how concept membership relationships learned via unsupervised clustering of entities can be reified and used to augment a KG. In a thorough set of experiments, we confirm that neural link predictors trained on these augmented KGs, or in a joint Expectation-Maximization iterative scheme, can generalize better and produce more accurate predictions for infrequent relationships. For instance, our method yields relative improvements of up to 8.6% MRR on WN18RR for rare predicates, and up to 82% in small-data regimes, where the model has access to just a small subset of the training triples. Furthermore, our proposed models are able to learn meaningful concepts.",
+    "pdf": "/pdf/c7f70130738585db28ec4af0f8bd63f12c368533.pdf",
+    "subject_areas": [
+      "Databases",
+      "Knowledge Representation, Semantic Web and Search",
+      "Relational AI"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "",
+    "paperhash": "dobrowolska|neural_concept_formation_in_knowledge_graphs",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\ndobrowolska2021neural,\ntitle={Neural Concept Formation in Knowledge Graphs},\nauthor={Agnieszka Dobrowolska and antonio vergari and Pasquale Minervini},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=V61-62OS4mZ}\n}",
+    "forum_id": "V61-62OS4mZ",
+    "UID": "24",
+    "author_profiles": [
+      "~Agnieszka_Dobrowolska1",
+      "~antonio_vergari2",
+      "~Pasquale_Minervini1"
+    ],
+    "doi": "doi:10.24432/C5C30B"
+  },
+  {
+    "title": "Commonsense Reasoning with Implicit Knowledge in Natural Language",
+    "authorids": [
+      "~Pratyay_Banerjee1",
+      "~Swaroop_Mishra1",
+      "~Kuntal_Kumar_Pal1",
+      "~Arindam_Mitra1",
+      "~Chitta_Baral1"
+    ],
+    "authors": [
+      "Pratyay Banerjee",
+      "Swaroop Mishra",
+      "Kuntal Kumar Pal",
+      "Arindam Mitra",
+      "Chitta Baral"
+    ],
+    "keywords": [
+      "Commonsense  Reasoning",
+      "Question Answering"
+    ],
+    "TL;DR": "We take a middle ground between large language models and knowledge graphs by using smaller language models together with a relatively smaller but targeted natural language text corpora to reason with implicit commonsense.",
+    "abstract": "Commonsense  Reasoning  is a research  challenge studied from the early days of AI. In  recent  years, several natural language QA task have been proposed where commonsense reasoning is important. Two common approaches to this are (i) Use  of well-structured commonsense present in knowledge graphs, and (ii) Use of progressively larger transformer language models. While acquiring  and  representing  commonsense  in  a  formal representation is challenging in approach (i), approach (ii) gets more and more resource-intensive.  In this work, we take a middle ground where we use smaller language models together with a relatively smaller but targeted natural language text corpora. The advantages of such an approach is that it is less resource intensive and yet at the same time it can use unstructured text corpora. We define different unstructured commonsense  knowledge  sources,  explore  three strategies  for  knowledge  incorporation,  and propose  four methods competitive to state-of-the-art methods to reason with implicit commonsense.",
+    "pdf": "/pdf/c911c6d9b99303629f673b4ba4c25859d0436e5f.pdf",
+    "subject_areas": [
+      "Question Answering and Reasoning"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/87826a55a356fe20f1c501fa140fa423974049a0.zip",
+    "paperhash": "banerjee|commonsense_reasoning_with_implicit_knowledge_in_natural_language",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nbanerjee2021commonsense,\ntitle={Commonsense Reasoning with Implicit Knowledge in Natural Language},\nauthor={Pratyay Banerjee and Swaroop Mishra and Kuntal Kumar Pal and Arindam Mitra and Chitta Baral},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=a4-fFL7aCi0}\n}",
+    "forum_id": "a4-fFL7aCi0",
+    "UID": "23",
+    "author_profiles": [
+      "~Pratyay_Banerjee1",
+      "~Swaroop_Mishra1",
+      "~Kuntal_Kumar_Pal1",
+      "~Arindam_Mitra1",
+      "~Chitta_Baral1"
+    ],
+    "doi": "doi:10.24432/C57C7H"
+  },
+  {
+    "title": "NATCAT: Weakly Supervised Text Classification with Naturally Annotated Resources",
+    "authorids": [
+      "~Zewei_Chu1",
+      "~Karl_Stratos2",
+      "~Kevin_Gimpel1"
+    ],
+    "authors": [
+      "Zewei Chu",
+      "Karl Stratos",
+      "Kevin Gimpel"
+    ],
+    "keywords": [],
+    "abstract": "We describe NatCat, a large-scale resource for text classification constructed from three data sources: Wikipedia, Stack Exchange, and Reddit. NatCat consists of document-category pairs derived from manual curation that occurs naturally within online communities. To demonstrate its usefulness, we build general purpose text classifiers by training on NatCat and evaluate them on a suite of 11 text classification tasks (CatEval), reporting large improvements compared to prior work. We benchmark different modeling choices and resource combinations and show how tasks benefit from particular NatCat data sources.",
+    "pdf": "/pdf/f977e265a438b8560a93f15ed039c00dfeb67ca4.pdf",
+    "subject_areas": [],
+    "supplementary_material": "/attachment/9fe648ea9e49a728cdd5deaadfc390ebb540d2c5.zip",
+    "paperhash": "chu|natcat_weakly_supervised_text_classification_with_naturally_annotated_resources",
+    "archival_status": "Archival",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nchu2021natcat,\ntitle={{NATCAT}: Weakly Supervised Text Classification with Naturally Annotated Resources},\nauthor={Zewei Chu and Karl Stratos and Kevin Gimpel},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=kmVA04ltlG_}\n}",
+    "forum_id": "kmVA04ltlG_",
+    "UID": "21",
+    "author_profiles": [
+      "~Zewei_Chu1",
+      "~Karl_Stratos1",
+      "~Kevin_Gimpel1"
+    ],
+    "doi": "doi:10.24432/C53K5K"
+  },
+  {
+    "title": "One-shot to Weakly-Supervised Relation Classification using Language Models",
+    "authorids": [
+      "~Thy_Thy_Tran1",
+      "~Phong_Le1",
+      "~Sophia_Ananiadou1"
+    ],
+    "authors": [
+      "Thy Thy Tran",
+      "Phong Le",
+      "Sophia Ananiadou"
+    ],
+    "keywords": [
+      "relation classification",
+      "one-shot",
+      "noisy data"
+    ],
+    "TL;DR": "We propose NoelA, an auto-encoder relation classifier using a noisy channel, to improve the accuracy by learning from the matching predictions.",
+    "abstract": "Relation classification aims at detecting a particular relation type between two entities in text, whose methods mostly requires annotated data. Data annotation is either a manual process for supervised learning, or automated, using knowledge bases for distant learning. Unfortunately, both annotation methodologies are costly and time-consuming since they depend on intensive human labour for annotation or for knowledge base creation. With recent evidence that language models capture some sort of relational facts as knowledge bases, one-shot relation classification using language models has been proposed via matching a given instance against examples. The only requirement is that each relation type is associated with an exemplar. However, the matching approach often yields incorrect predictions. In this work, we propose NoelA, an auto-encoder using a noisy channel, to improve the accuracy by learning from the matching predictions. NoelA outperforms BERT matching and a bootstrapping baseline on TACRED and reWiki80.",
+    "pdf": "/pdf/a327ea7aeccb2300faf54793e3f2731761f3c3c1.pdf",
+    "subject_areas": [
+      "Information Extraction"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "tran|oneshot_to_weaklysupervised_relation_classification_using_language_models",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\ntran2021oneshot,\ntitle={One-shot to Weakly-Supervised Relation Classification using Language Models},\nauthor={Thy Thy Tran and Phong Le and Sophia Ananiadou},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=W0mr06PxTHp}\n}",
+    "forum_id": "W0mr06PxTHp",
+    "UID": "20",
+    "author_profiles": [
+      "~Thy_Thy_Tran1",
+      "~Phong_Le1",
+      "~Sophia_Ananiadou1"
+    ],
+    "doi": "doi:10.24432/C5ZW29"
+  },
+  {
+    "title": "Question Decomposition with Dependency Graphs",
+    "authorids": [
+      "~Matan_Hasson1",
+      "~Jonathan_Berant1"
+    ],
+    "authors": [
+      "Matan Hasson",
+      "Jonathan Berant"
+    ],
+    "keywords": [
+      "NLP",
+      "QA",
+      "dependency parsing",
+      "multitask",
+      "transformers",
+      "QDMR"
+    ],
+    "TL;DR": "Combining seq2seq-based and graph-based approaches to improve sample complexity and domain generalization in question decomposing.",
+    "abstract": "QDMR is a meaning representation for complex questions, which decomposes questions into a sequence of atomic steps, and has been recently shown to be useful for question answering. While state-of-the-art QDMR parsers use the common sequence-to-sequence (seq2seq) approach, a QDMR structure fundamentally describes labeled relations between spans in the input question, and thus dependency-based approaches seem appropriate for this task.\nIn this work, we present a QDMR parser that is based on dependency graphs (DGs), where nodes in the graph are words and edges describe logical relations that correspond to the different computation steps. We propose (a) a non-autoregressive graph parser, where all graph edges are computed simultaneously, and (b) a seq2seq parser that uses the gold graph as auxiliary supervision.\nWe find that a graph parser leads to a moderate reduction in performance (0.47 to 0.44), but to a 16x speed-up in inference time due to its non-autoregressive nature, and to improved sample complexity compared to a seq2seq model. Second, training a seq2seq model with auxiliary DG supervision leads to better generalization on out-of-domain data and on QDMR structures with \nlong sequences of computation steps.",
+    "pdf": "/pdf/3fb5209eb21ddc02fb1eea3e2586932d0bb2a112.pdf",
+    "subject_areas": [
+      "Question Answering and Reasoning",
+      "Machine Learning"
+    ],
+    "archival_status": "Non-Archival",
+    "paperhash": "hasson|question_decomposition_with_dependency_graphs",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nhasson2021question,\ntitle={Question Decomposition with Dependency Graphs},\nauthor={Matan Hasson and Jonathan Berant},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=j920k2uqQNz}\n}",
+    "forum_id": "j920k2uqQNz",
+    "UID": "14",
+    "author_profiles": [
+      "~Matan_Hasson1",
+      "~Jonathan_Berant1"
+    ],
+    "doi": ""
+  },
+  {
+    "title": "Abstractified Multi-instance Learning (AMIL) for Biomedical Relation Extraction",
+    "authorids": [
+      "~William_P_Hogan1",
+      "~Molly_Huang1",
+      "~Yannis_Katsis1",
+      "~Tyler_Baldwin1",
+      "~Ho-Cheol_Kim1",
+      "yoshiki@eng.ucsd.edu",
+      "~Andrew_Bartko1",
+      "~Chun-Nan_Hsu1"
+    ],
+    "authors": [
+      "William P Hogan",
+      "Molly Huang",
+      "Yannis Katsis",
+      "Tyler Baldwin",
+      "Ho-Cheol Kim",
+      "Yoshiki Baeza",
+      "Andrew Bartko",
+      "Chun-Nan Hsu"
+    ],
+    "keywords": [
+      "Information Extraction",
+      "Relation Extraction",
+      "Biomedical NLP",
+      "Machine Learning"
+    ],
+    "TL;DR": "We propose a new method that improves biomedical relationship extraction by leveraging ontological information. ",
+    "abstract": "Relation extraction in the biomedical domain is a challenging task due to a lack of labeled data and a long-tail distribution of fact triples. Many works leverage distant supervision which automatically generates labeled data by pairing a knowledge graph with raw textual data. Distant supervision produces noisy labels and requires additional techniques, such as multi-instance learning (MIL), to denoise the training signal. However, MIL requires multiple instances of data and struggles with very long-tail datasets such as those found in the biomedical domain. In this work, we propose a novel reformulation of MIL for biomedical relation extraction that abstractifies biomedical entities into their corresponding semantic types. By grouping entities by types, we are better able to take advantage of the benefits of MIL and further denoise the training signal. We show this reformulation, which we refer to as abstractified multi-instance learning (AMIL), improves performance in biomedical relationship extraction. We also propose a novel relationship embedding architecture that further improves model performance.",
+    "pdf": "/pdf/d163a40fe2c7b1ce4c0be1b0d9cd42a835f970d0.pdf",
+    "subject_areas": [
+      "Information Extraction",
+      "Machine Learning"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/7888b8507bb21ace5b93d92a24a634cc6d4b7e5f.zip",
+    "paperhash": "hogan|abstractified_multiinstance_learning_amil_for_biomedical_relation_extraction",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nhogan2021abstractified,\ntitle={Abstractified Multi-instance Learning ({AMIL}) for Biomedical Relation Extraction},\nauthor={William P Hogan and Molly Huang and Yannis Katsis and Tyler Baldwin and Ho-Cheol Kim and Yoshiki Baeza and Andrew Bartko and Chun-Nan Hsu},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=VX0swzJEzpg}\n}",
+    "forum_id": "VX0swzJEzpg",
+    "UID": "13",
+    "author_profiles": [
+      "~William_P_Hogan1",
+      "~Molly_Huang1",
+      "~Yannis_Katsis1",
+      "~Tyler_Baldwin1",
+      "~Ho-Cheol_Kim1",
+      "",
+      "~Andrew_Bartko1",
+      "~Chun-Nan_Hsu1"
+    ],
+    "doi": "doi:10.24432/C5V30P"
+  },
+  {
+    "title": "Scientific Language Models for Biomedical Knowledge Base Completion: An Empirical Study",
+    "authorids": [
+      "~Rahul_Nadkarni1",
+      "~David_Wadden1",
+      "~Iz_Beltagy1",
+      "~Noah_Smith1",
+      "~Hannaneh_Hajishirzi1",
+      "~Tom_Hope2"
+    ],
+    "authors": [
+      "Rahul Nadkarni",
+      "David Wadden",
+      "Iz Beltagy",
+      "Noah Smith",
+      "Hannaneh Hajishirzi",
+      "Tom Hope"
+    ],
+    "keywords": [
+      "language models",
+      "knowledge graph embeddings",
+      "knowledge graph completion",
+      "biomedical knowledge graphs"
+    ],
+    "TL;DR": "Applying domain-specific pretrained language models to biomedical knowledge graph completion and exploring ways of integrating them with or using them to augment knowledge graph embeddings to improve performance.",
+    "abstract": "Biomedical knowledge graphs (KGs) hold rich information on entities such as diseases, drugs, and genes. Predicting missing links in these graphs can boost many important applications, such as drug design and repurposing. Recent work has shown that general-domain language models (LMs) can serve as \"soft\" KGs, and that they can be fine-tuned for the task of KG completion. In this work, we study scientific LMs for KG completion, exploring whether we can tap into their latent knowledge to enhance biomedical link prediction. We evaluate several domain-specific LMs, fine-tuning them on datasets centered on drugs and diseases that we represent as KGs and enrich with textual entity descriptions. We integrate the LM-based models with KG embedding models, using a router method that learns to assign each input example to either type of model and provides a substantial boost in performance. Finally, we demonstrate the advantage of LM models in the inductive setting with novel scientific entities.",
+    "pdf": "/pdf/8ec7c53b35cfa53ffc3fad66429f93b9b88f1e4c.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Applications",
+      "Machine Learning"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/24ea0d41d13ffbdc36b337611b118b10b2d2f0cf.zip",
+    "paperhash": "nadkarni|scientific_language_models_for_biomedical_knowledge_base_completion_an_empirical_study",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nnadkarni2021scientific,\ntitle={Scientific Language Models for Biomedical Knowledge Base Completion: An Empirical Study},\nauthor={Rahul Nadkarni and David Wadden and Iz Beltagy and Noah Smith and Hannaneh Hajishirzi and Tom Hope},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=4Exq_UvWKY8}\n}",
+    "forum_id": "4Exq_UvWKY8",
+    "UID": "12",
+    "author_profiles": [
+      "~Rahul_Nadkarni1",
+      "~David_Wadden1",
+      "~Iz_Beltagy1",
+      "~Noah_Smith1",
+      "~Hannaneh_Hajishirzi1",
+      "~Tom_Hope2"
+    ],
+    "doi": "doi:10.24432/C5QC7V"
+  },
+  {
+    "title": "Combining Analogy with Language Models for Knowledge Extraction",
+    "authorids": [
+      "~Danilo_Neves_Ribeiro1",
+      "~Kenneth_Forbus1"
+    ],
+    "authors": [
+      "Danilo Neves Ribeiro",
+      "Kenneth Forbus"
+    ],
+    "keywords": [
+      "relation extraction",
+      "analogy",
+      "common-sense",
+      "few-shot learning",
+      "language models"
+    ],
+    "TL;DR": "Combines language models with analogical learning for extracting common sense facts from web text from a few examples.",
+    "abstract": "Learning structured knowledge from natural language text has been a long-standing challenge. Previous work has focused on specific domains, mostly extracting knowledge about named entities (e.g. countries, companies, or persons) instead of general-purpose world knowledge (e.g. information about science or everyday objects). In this paper we combine the Companion Cognitive Architecture with the BERT Language Model to extract structured knowledge from text, with the goal of automatically inferring missing commonsense facts from an existing knowledge base. Using the principles of distant supervision, the system learns functions called query cases that map statements expressed in natural language into knowledge base relations. Afterwards, the system uses such query cases to extract structured knowledge using analogical reasoning. We run experiments on 2,679 Simple English Wikipedia articles, where the system is able to learn high precision facts about a variety of subjects from a few training examples, outperforming strong baselines.",
+    "pdf": "/pdf/7c197d3b3c1e0c569adc98c2d23edfc73f2eb4b4.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Information Extraction"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/1fbedfb6d2a0707a84606941e21f6f30e652f255.zip",
+    "paperhash": "ribeiro|combining_analogy_with_language_models_for_knowledge_extraction",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nribeiro2021combining,\ntitle={Combining Analogy with Language Models for Knowledge Extraction},\nauthor={Danilo Neves Ribeiro and Kenneth Forbus},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=4TpJpZ-_gyl}\n}",
+    "forum_id": "4TpJpZ-_gyl",
+    "UID": "8",
+    "author_profiles": [
+      "~Danilo_Neves_Ribeiro1",
+      "~Kenneth_Forbus1"
+    ],
+    "doi": "doi:10.24432/C5KK5X"
+  },
+  {
+    "title": "Manifold Alignment across Geometric Spaces for Knowledge Base Representation Learning",
+    "authorids": [
+      "~Huiru_Xiao1",
+      "~Yangqiu_Song1"
+    ],
+    "authors": [
+      "Huiru Xiao",
+      "Yangqiu Song"
+    ],
+    "keywords": [],
+    "abstract": "Knowledge bases have multi-relations with distinctive properties. Most properties such as symmetry, inversion, and composition can be handled by the Euclidean embedding models. Nevertheless, transitivity is a special property that cannot be modeled efficiently in the Euclidean space. Instead, the hyperbolic space characterizes the transitivity naturally because of its tree-like properties. However, the hyperbolic space reveals its weakness for other relations. Therefore, building a representation learning framework for all relation properties is highly difficult. In this paper, we propose to learn the knowledge base embeddings in different geometric spaces and apply manifold alignment to align the shared entities. The aligned embeddings are evaluated on the out-of-taxonomy entity typing task, where we aim to predict the types of the entities from the knowledge graph. Experimental results on two datasets based on YAGO3 demonstrate that our approach has significantly good performances, especially in low dimensions and on small training rates.",
+    "pdf": "/pdf/2c642f5d91c8e56d318f64e558357121e8bd5206.pdf",
+    "subject_areas": [
+      "Knowledge Representation, Semantic Web and Search",
+      "Applications"
+    ],
+    "archival_status": "Archival",
+    "paperhash": "xiao|manifold_alignment_across_geometric_spaces_for_knowledge_base_representation_learning",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\nxiao2021manifold,\ntitle={Manifold Alignment across Geometric Spaces for Knowledge Base Representation Learning},\nauthor={Huiru Xiao and Yangqiu Song},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=TPymTKJR-Pi}\n}",
+    "forum_id": "TPymTKJR-Pi",
+    "UID": "7",
+    "author_profiles": [
+      "~Huiru_Xiao1",
+      "~Yangqiu_Song1"
+    ],
+    "doi": "doi:10.24432/C5FW2N"
+  },
+  {
+    "title": "SciCo: Hierarchical Cross-Document Coreference for Scientific Concepts",
+    "authorids": [
+      "~Arie_Cattan1",
+      "sophiej@allenai.org",
+      "~Daniel_S_Weld1",
+      "~Ido_Dagan1",
+      "~Iz_Beltagy1",
+      "~Doug_Downey1",
+      "~Tom_Hope2"
+    ],
+    "authors": [
+      "Arie Cattan",
+      "Sophie Johnson",
+      "Daniel S Weld",
+      "Ido Dagan",
+      "Iz Beltagy",
+      "Doug Downey",
+      "Tom Hope"
+    ],
+    "keywords": [
+      "Cross-document coreference resolution",
+      "computer sciences",
+      "scientific c"
+    ],
+    "abstract": "Determining coreference of concept mentions across multiple documents is a fundamental task in natural language understanding. Previous work on cross-document coreference resolution (CDCR) typically considers mentions of events in the news, which seldom involve abstract technical concepts that are prevalent in science and technology. These complex concepts take diverse or ambiguous forms and have many hierarchical levels of granularity (e.g., tasks and subtasks), posing challenges for CDCR. We present a new task of Hierarchical CDCR (H-CDCR) with the goal of jointly inferring coreference clusters and hierarchy between them. We create SciCo, an expert-annotated dataset for H-CDCR in scientific papers, 3X larger than the prominent ECB+ resource. We study strong baseline models that we customize for H-CDCR, and highlight challenges for future work. Data and code are available at https://scico.apps.allenai.org/.",
+    "pdf": "/pdf/fe1384f8974b2288d4f4affde8a582ce179fd85c.pdf",
+    "subject_areas": [
+      "Information Extraction"
+    ],
+    "archival_status": "Archival",
+    "supplementary_material": "/attachment/f17532e4f7ebd767ae8cf4467719c1d1f74db647.zip",
+    "paperhash": "cattan|scico_hierarchical_crossdocument_coreference_for_scientific_concepts",
+    "venue": "AKBC 2021",
+    "venueid": "AKBC.ws/2021/Conference",
+    "_bibtex": "@inproceedings{\ncattan2021scico,\ntitle={SciCo: Hierarchical Cross-Document Coreference for Scientific Concepts},\nauthor={Arie Cattan and Sophie Johnson and Daniel S Weld and Ido Dagan and Iz Beltagy and Doug Downey and Tom Hope},\nbooktitle={3rd Conference on Automated Knowledge Base Construction},\nyear={2021},\nurl={https://openreview.net/forum?id=OFLbgUP04nC}\n}",
+    "forum_id": "OFLbgUP04nC",
+    "UID": "3",
+    "author_profiles": [
+      "~Arie_Cattan1",
+      "",
+      "~Daniel_S_Weld1",
+      "~Ido_Dagan1",
+      "~Iz_Beltagy1",
+      "~Doug_Downey1",
+      "~Tom_Hope2"
+    ],
+    "doi": "doi:10.24432/C5B594"
   }
-  ]
+]
